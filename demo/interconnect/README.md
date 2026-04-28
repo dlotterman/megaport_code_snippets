@@ -9,17 +9,17 @@
 
 The "Interconnect" demo environment is based out of Dallas, where a "Latitude.sh Labs" org [VLAN](https://www.latitude.sh/docs/networking/private-networks) has been plumbed into a Megaport [MCR](https://docs.megaport.com/mcr/). The magic numbers around that interconnection are:
 
-LSH VLAN:`2105`
-LSH Subnet: `172.31.0.0/18`
-LSH Gateway: `172.31.0.1`
-LSH Peering IP: `172.31.254.241/31`
-LSH BGP ASN: `65213`
-MCR Peering IP: `172.31.254.242/31`
-MCR BGP ASN: `4200000001`
+- LSH VLAN:`2105`
+- LSH Subnet: `172.31.0.0/18`
+- LSH Gateway: `172.31.0.1`
+- LSH Peering IP: `172.31.254.241/31`
+- LSH BGP ASN: `65213`
+- MCR Peering IP: `172.31.254.242/31`
+- MCR BGP ASN: `4200000001`
 
 ## The Demo
 
-Start by showing the customer the LSH VLAN `latitude-sa-mcr-da-1-172-31-0-1/18`. Then show the diagram in this repo, and talk about how we use Megaport VXCs to "extend" an LSH VLAN, in this case to an MCR. This is a Layer-3 oriented connection where the LSH Network has been configured to BGP Peer into the MCR. The LSH Network provides access in the form of a Gateway IP in that VLAN.
+Start by showing the customer the LSH VLAN `latitude-sa-mcr-da-1-172-31-0-1/18`. Then show the diagram in this repo, and talk about how we use Megaport VXCs to "extend" an LSH VLAN to any Z-side on the Megaport network, in this case to an MCR. This is a Layer-3 oriented connection where the LSH Network has been configured to BGP Peer into the MCR. The LSH Network provides access in the form of a Gateway IP in that VLAN.
 
 Then go to the Megaport portal and search services for `latitude-sa-mcr-da-1`, this will bring up the MCR and its VXC into LSH. Bring up VXC details to show the MCR Interface IP and BGP status.
 
