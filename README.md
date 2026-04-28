@@ -1,2 +1,9 @@
 # megaport_code_snippets
-Code Snippets and Widgets for working with Megaport
+
+This repository is a collection of notes and scratch documentation collected by the owner, hosted on Github for the purposes of longer-lived sharing than would be possible by other means.
+
+Everything in this repository is customer engagement driven.
+
+All contents are strictly un-supported, not affiliated with or the responsility of any other party. Anything contained is License-free
+
+Be kind to one another.
