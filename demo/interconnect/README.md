@@ -1,4 +1,4 @@
-# "Interconnect" Demo for Latitude.sh
+# "Interconnect" Demo for Latitude.sh + Megaport
 
 <p align="center">
     <img src="https://raw.githubusercontent.com/dlotterman/megaport_code_snippets/refs/heads/main/demo/interconnect/assets/lsh_interconnect_demo.png" alt="interconnect diagram" width="750">
@@ -90,7 +90,7 @@ ping 172.31.254.241
 
 Then ping the MCR:
 ```
-172.31.254.242
+ping 172.31.254.242
 ```
 
 ## Celebrate
